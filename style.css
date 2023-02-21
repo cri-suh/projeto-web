@@ -26,14 +26,18 @@ form{
     width:400px;
     float:right;
     margin-right:20px;
-    margin-top:60px;
+    margin-top:40px;
 }
 legend{
     text-align:center;
     font-size:16px;
     color:white;
 }
-form h4,h5{
+form p{
+    color:white;
+    font-size:17px;
+}
+form h4,h5,p{
     margin-top:20px;
     margin-left:40px;
     color:rgb(130,130,130);
@@ -46,7 +50,7 @@ form input[type=text]{
 }
 input[type=submit]:hover{
     background-color:rgba(54, 69, 232, 0.77);;
-    transition:1s;
+    transition:0.3s;
 }
 form input[type=submit]{
     display:block;
@@ -62,4 +66,111 @@ form input[type=submit]{
 }
 form input[type=submit]:focus, form input[type=text]:focus{
     outline: 0;
+}
+.list-container{
+    padding:20px;
+    float:left;
+    width:500px;
+    height:219px;
+    margin-top:80px;
+    margin-left:40px;
+    background-color: rgba(33,35,67,0.7);
+   
+}
+.list-container ul{
+    list-style-position:inside;
+}
+.list-container li{
+    margin-top:20px;
+    color:white;
+}
+.container-2{
+    padding:40px 0;
+    background-color:rgb(230,230,230);
+    text-align:center;
+}
+.container-2 h2{
+    font-weight:normal;
+}
+.container-2 p{
+    width:600px;
+    display:inline-block;
+    margin:15px 0;
+    text-align:justify;
+}
+.arrow{
+    position:relative;
+    top:-20px;
+    left:50%;
+    margin-left:-20px;
+    width:40px;
+    height:40px;
+    background-image: url('./images/arrow.png');
+    background-size:100% 100%;
+}
+.section-1{
+    padding:90px 0;  
+}
+.section-1 h2{
+    text-align:center;
+    font-weight:normal;
+}
+.container-section{
+    margin-top:40px;
+}
+.container-section{
+    text-align:center;
+    
+}
+.container-single{
+    float:left;
+    width:33.333%;
+    padding:30px;
+}
+.container-single p{
+    padding:10px 25px;
+    text-align:justify;
+}
+footer{
+    clear:both;
+    padding:30px 0;
+    background-color:#212343;
+    border-top:4px solid #888888;
+    text-align:center;
+}
+footer p{
+    color:rgb(120,120,120);
+    margin-top:10px;
+}
+@media screen and (max-width:768px){
+    .header img{
+       display:block;
+       margin:0 auto;
+       padding:20px;
+    }
+    .list-container{
+        width:50%;
+        margin:auto;
+        margin-top:50px;
+        min-height:400px;
+    }
+    .list-container li{
+        margin-top:40px; 
+    }
+    .center{
+        width:100%;
+        margin:0 auto;
+    }
+    form{
+        width:50%;
+        margin:auto; 
+    }
+    form input[type=text]{
+        width:85%;
+        margin-left:20px;   
+    }
+    fieldset{
+        margin-right:20px;
+    }
+        
 }
