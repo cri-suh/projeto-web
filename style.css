@@ -4,6 +4,8 @@
     box-sizing:border-box;
 }
 .center{
+    display:inline-block;
+    padding:0 2%;
     width:100%;
     margin:0 auto;
 }
@@ -27,10 +29,9 @@
     height: 100%;
 }
 form{
-    width:400px;
+    width:30%;
     float:right;
-    margin-right:40px;
-    margin-top:20px;
+    margin:20px;
 }
 legend{
     text-align:center;
@@ -74,7 +75,7 @@ form input[type=submit]:focus, form input[type=text]:focus{
 .list-container{
     padding:20px;
     float:left;
-    width:619px;
+    width:50%;
     height:219px;
     margin-top:130px;
     margin-left:60px;
@@ -182,20 +183,16 @@ footer p{
 		float:right;
 		top:0;
 	}
-
 	form input[type=text]{
 		width: 100%;
 		height: 55px;
 	}
-
-
 	form input[type=submit]{
 		max-width: 280px;
 		height: 56px;
 		width: 100%;
 	}
 }
-
 @media screen and (max-width: 768px){
 	.container-2{
 		padding-right: 4%;
